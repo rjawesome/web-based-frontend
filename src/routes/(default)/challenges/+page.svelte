@@ -30,8 +30,8 @@
             } else {
                 window.location.pathname = '/login'
             }
-        } else if (data.ids) {
-            levels = data.ids;
+        } else if (data.problems) {
+            levels = data.problems;
 
             if (data.seconds) {
                 secRemaining = data.seconds + 1;
