@@ -85,7 +85,7 @@
     <div class="flex self-center w-96 md:w-1/2 gap-8 h-fit">
         <div class="flex flex-col self-center bg-yellow-300 border-yellow-600 border-2 rounded-lg shadow-xl w-full h-fit p-8 text-2xl text-center font-bold text-yellow-600">
             <!-- Title for quiz -->
-            <p>Count Down: {formatNum(secRemaining/3600)}:{formatNum((secRemaining % 3600)/60)}:{formatNum(secRemaining % 60)}</p>
+            <p>Time Remaining: {formatNum(secRemaining/3600)}:{formatNum((secRemaining % 3600)/60)}:{formatNum(secRemaining % 60)}</p>
         </div>
     </div>    
     {/if}

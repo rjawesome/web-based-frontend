@@ -37,7 +37,7 @@
             }
             else {
                 alert("Your time has started. You have 4 hours remaining.")
-                window.location.pathname = '/frq'
+                window.location.pathname = '/challenges'
             }
         })
         .catch(error => {

@@ -1,5 +1,5 @@
 <script>
-    let frqPageUrl = "/frq";
+    let challengePageUrl = "/challenges";
 </script>
 
 <div class="flex px-8 py-24 bg-green-600 h-screen w-screen">
@@ -8,7 +8,7 @@
         <p class="text-white mb-6">Login/Click on Profile Picture to set your ID.</p>
         <p class="text-white mb-6">Go to the start page and click on the "start" button to start your 4 hour window.</p>
         <p class="text-white mb-6">Proceed to problems when you have started. Good luck!</p>
-        <a href="{frqPageUrl}" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">Go to Problems</a>
+        <a href="{challengePageUrl}" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">Go to Problems</a>
     </div>
     
 </div>
