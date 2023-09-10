@@ -6,3 +6,5 @@ pnpm i
 npm run dev
 # type in "r" in the terminal to restart the server
 ```
+# Extra Notes
+- If the backend server is not on localhost:10001, update it in src/lib/vars.js
