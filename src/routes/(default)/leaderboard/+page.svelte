@@ -1,11 +1,13 @@
 <script lang="ts">
 import { SERVER } from "$lib/vars";
-    import { onMount } from "svelte";
+import { onMount } from "svelte";
 
 let items: any[] = []
 
 onMount(() => {
-    fetch(SERVER + 'leaderboard', {
+    let pass = prompt('Enter the password (you must be an admin)')
+
+    fetch(SERVER + 'leaderboard-'+pass, {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
