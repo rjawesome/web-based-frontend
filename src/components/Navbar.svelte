@@ -13,7 +13,7 @@
 </script>
 
 
-<div class="navbar bg-green-800 p-2 fixed z-40 shadow-xl">
+<div class="navbar bg-gray-800 p-2 fixed z-40 shadow-xl">
   <div class="navbar-start">
     <!-- svelte-ignore a11y-label-has-associated-control -->
     <div class="dropdown">

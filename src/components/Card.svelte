@@ -17,7 +17,7 @@
     padding: 10px;
 	}
 </style>
-<div class="card w-96 bg-green-700 shadow-xl border-green-800 border-2">
+<div class="card w-96 bg-gray-700 shadow-xl border-gray-800 border-2">
     <div class="card-body">
       <h2 class="card-title">{level.name}</h2>
       <h2>Score: {level.points} of {level.availablePoints} pts</h2>
