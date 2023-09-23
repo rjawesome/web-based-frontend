@@ -1,7 +1,7 @@
 <script lang="ts">
   import Card from "../../../components/Card.svelte";
   import { SERVER } from "$lib/vars.js";
-    import { onMount } from "svelte";
+  import { onMount } from "svelte";
     
   let levels: string[] = [];
   let secRemaining = -1;
