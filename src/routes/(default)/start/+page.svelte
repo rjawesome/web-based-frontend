@@ -37,7 +37,7 @@
             }
             else {
                 alert("Your time has started. You have 4 hours remaining.")
-                window.location.pathname = '/frq'
+                window.location.pathname = '/challenges'
             }
         })
         .catch(error => {
@@ -50,6 +50,6 @@
 
 </script>
 
-<div class="flex px-8 py-24 bg-green-600 h-screen w-screen">
+<div class="flex px-8 py-24 bg-gray-600 h-screen w-screen">
 <button disabled={disabled} on:click={startCompetition} class="btn btn-primary">Start Now/Check Time!</button>
 </div>

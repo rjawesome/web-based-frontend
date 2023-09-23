@@ -13,7 +13,7 @@
 </script>
 
 
-<div class="navbar bg-green-800 p-2 fixed z-40 shadow-xl">
+<div class="navbar bg-gray-800 p-2 fixed z-40 shadow-xl">
   <div class="navbar-start">
     <!-- svelte-ignore a11y-label-has-associated-control -->
     <div class="dropdown">
@@ -26,15 +26,15 @@
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <!-- svelte-ignore a11y-missing-attribute -->
-        <li><a href="/frq">FRQ</a></li>
+        <li><a href="/challenges">Challenges</a></li>
       </ul>
     </div>
 
-    <a href="/" class="btn btn-ghost normal-case text-xl">Macro Monkeys</a>
+    <a href="/" class="btn btn-ghost normal-case text-xl">Web-Based ICC</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="/frq">Problems</a></li>
+      <li><a href="/challenges">Challenges</a></li>
       <li><a href="/start">Start/Check Time</a></li>
     </ul>
   </div>
@@ -51,7 +51,7 @@
         </div>
       </label>
       <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
-        <li><button>{userName}</button></li>
+        <li><button>Current ID: {userName}</button></li>
         <li><a href="/login">Change ID</a></li>
       </ul>
     </div>
